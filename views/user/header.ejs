@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="css/user/header.css">
+<div class="header">
+    <img src="img/logo.png" alt="Logo" height="50px">
+    <ul>
+        <% if (query == "registration") { %>
+            <a href="/login">Already a Member? Login</a>
+        <% } else { %>
+            <a href="/">Not a Member? Register</a>            
+        <% }%>
+
+    </ul>
+</div>
